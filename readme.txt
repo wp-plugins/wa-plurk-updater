@@ -4,7 +4,7 @@ Donate link: http://diwafernandez.com/blog/notes/plugin-wa-plurk/
 Tags: plurk, post
 Requires at least: 2.9
 Tested up to: 3.0.5
-Stable tag: 3.0.1
+Stable tag: 1.0.6
 
 This a simple plugin that sends any updates from your site to your Plurk account.
 
@@ -35,5 +35,7 @@ Yes, you need an account for where it will be posted
 
 = 1.0.5 =
 * Added a notice if the plurk account is valid.
+= 1.0.6 =
+* Added an option to removed saved plurk account from the option.
 
 == Upgrade Notice ==

@@ -4,7 +4,7 @@ Donate link: http://diwafernandez.com/blog/notes/plugin-wa-plurk/
 Tags: plurk, post
 Requires at least: 2.9
 Tested up to: 3.2.1
-Stable tag: 3.0.5
+Stable tag: 1.0.7
 
 This a simple plugin that sends any updates from your site to your Plurk account.
 

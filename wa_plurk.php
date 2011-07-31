@@ -3,7 +3,7 @@
 Plugin Name: Wa Plurk Updater Plugin
 Plugin URI: http://wordpress.org/extend/plugins/wa-plurk-updater/
 Description: A wordpress plugin that posts any published post to your plurk account with an option to set what kind of text you want to be posted in Plurk.
-Version: 1.0.6
+Version: 1.0.7
 Author: Diwa G. Fernandez
 Author URI: http://diwafernandez.com
 License: GPLv2

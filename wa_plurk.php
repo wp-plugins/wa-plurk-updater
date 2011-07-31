@@ -62,11 +62,11 @@ if (!function_exists('wa_plurk')) {
 	   $thisposttitle = $_POST['post_title'];
 	   $thispostlink = get_permalink($post_ID);
 	   $sentence = '';
-	
+	/*if (($get_post_info->post_status == 'publish' || $_POST['publish'] == 'Publish') && ($_POST['prev_status'] == 'draft' || $_POST['original_post_status'] == 'draft' || $_POST['prev_status'] == 'pending' || $_POST['original_post_status'] == 'pending')) {*/
 	//is new post
-	if($_POST['prev_status'] == 'draft'){
+	if($_POST['action'] !== 'autosave'){
 
-		if($_POST['publish'] == 'Publish'){
+		if($get_post_info->post_status == 'publish' || $_POST['publish'] == 'Publish'){
 			// publish new post
 			if(get_option('newpost-published-update') == '1'){
 				$sentence = get_option('newpost-published-text');
